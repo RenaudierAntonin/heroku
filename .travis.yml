@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: TS1qWxY2HZiPz8i/mMv0pl6B/JiKCaFf77TV91U1ZkyW8m8AOcRjhqRQb9Ysrhvc4lOjDKWeqY0V2hN21mYoaE/6PBGDDEIEBc1SVoV7ObIRK9NWXRAKluQrzwefUXYWVM6pJ2rQimRX70RTQO/MgBfz8x7WNWouYo23qJqKtBw=
+  app: app_test
+  on:
+    repo: heroku/java-getting-started
